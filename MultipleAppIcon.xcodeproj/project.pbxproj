@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75C5511F264CFBFF0013E7C1 /* MultipleAppIconApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C5510C264CFBFB0013E7C1 /* MultipleAppIconApp.swift */; };
+		75C55120264CFBFF0013E7C1 /* MultipleAppIconApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C5510C264CFBFB0013E7C1 /* MultipleAppIconApp.swift */; };
+		75C55121264CFBFF0013E7C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C5510D264CFBFB0013E7C1 /* ContentView.swift */; };
+		75C55122264CFBFF0013E7C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C5510D264CFBFB0013E7C1 /* ContentView.swift */; };
+		75C55123264CFBFF0013E7C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75C5510E264CFBFF0013E7C1 /* Assets.xcassets */; };
+		75C55124264CFBFF0013E7C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75C5510E264CFBFF0013E7C1 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		75C5510C264CFBFB0013E7C1 /* MultipleAppIconApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleAppIconApp.swift; sourceTree = "<group>"; };
+		75C5510D264CFBFB0013E7C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		75C5510E264CFBFF0013E7C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75C55113264CFBFF0013E7C1 /* MultipleAppIcon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipleAppIcon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75C55116264CFBFF0013E7C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75C5511B264CFBFF0013E7C1 /* MultipleAppIcon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipleAppIcon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75C5511D264CFBFF0013E7C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75C5511E264CFBFF0013E7C1 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75C55110264CFBFF0013E7C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75C55118264CFBFF0013E7C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75C55106264CFBFB0013E7C1 = {
+			isa = PBXGroup;
+			children = (
+				75C5510B264CFBFB0013E7C1 /* Shared */,
+				75C55115264CFBFF0013E7C1 /* iOS */,
+				75C5511C264CFBFF0013E7C1 /* macOS */,
+				75C55114264CFBFF0013E7C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75C5510B264CFBFB0013E7C1 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				75C5510C264CFBFB0013E7C1 /* MultipleAppIconApp.swift */,
+				75C5510D264CFBFB0013E7C1 /* ContentView.swift */,
+				75C5510E264CFBFF0013E7C1 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		75C55114264CFBFF0013E7C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75C55113264CFBFF0013E7C1 /* MultipleAppIcon.app */,
+				75C5511B264CFBFF0013E7C1 /* MultipleAppIcon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75C55115264CFBFF0013E7C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				75C55116264CFBFF0013E7C1 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		75C5511C264CFBFF0013E7C1 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				75C5511D264CFBFF0013E7C1 /* Info.plist */,
+				75C5511E264CFBFF0013E7C1 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75C55112264CFBFF0013E7C1 /* MultipleAppIcon (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75C55127264CFBFF0013E7C1 /* Build configuration list for PBXNativeTarget "MultipleAppIcon (iOS)" */;
+			buildPhases = (
+				75C5510F264CFBFF0013E7C1 /* Sources */,
+				75C55110264CFBFF0013E7C1 /* Frameworks */,
+				75C55111264CFBFF0013E7C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MultipleAppIcon (iOS)";
+			productName = "MultipleAppIcon (iOS)";
+			productReference = 75C55113264CFBFF0013E7C1 /* MultipleAppIcon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75C5511A264CFBFF0013E7C1 /* MultipleAppIcon (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75C5512A264CFBFF0013E7C1 /* Build configuration list for PBXNativeTarget "MultipleAppIcon (macOS)" */;
+			buildPhases = (
+				75C55117264CFBFF0013E7C1 /* Sources */,
+				75C55118264CFBFF0013E7C1 /* Frameworks */,
+				75C55119264CFBFF0013E7C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MultipleAppIcon (macOS)";
+			productName = "MultipleAppIcon (macOS)";
+			productReference = 75C5511B264CFBFF0013E7C1 /* MultipleAppIcon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75C55107264CFBFB0013E7C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					75C55112264CFBFF0013E7C1 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					75C5511A264CFBFF0013E7C1 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 75C5510A264CFBFB0013E7C1 /* Build configuration list for PBXProject "MultipleAppIcon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75C55106264CFBFB0013E7C1;
+			productRefGroup = 75C55114264CFBFF0013E7C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75C55112264CFBFF0013E7C1 /* MultipleAppIcon (iOS) */,
+				75C5511A264CFBFF0013E7C1 /* MultipleAppIcon (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75C55111264CFBFF0013E7C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75C55123264CFBFF0013E7C1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75C55119264CFBFF0013E7C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75C55124264CFBFF0013E7C1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75C5510F264CFBFF0013E7C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75C55121264CFBFF0013E7C1 /* ContentView.swift in Sources */,
+				75C5511F264CFBFF0013E7C1 /* MultipleAppIconApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75C55117264CFBFF0013E7C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75C55122264CFBFF0013E7C1 /* ContentView.swift in Sources */,
+				75C55120264CFBFF0013E7C1 /* MultipleAppIconApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		75C55125264CFBFF0013E7C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75C55126264CFBFF0013E7C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		75C55128264CFBFF0013E7C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28S944C5QK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.soka.testsmultipleappicon.MultipleAppIcon;
+				PRODUCT_NAME = MultipleAppIcon;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75C55129264CFBFF0013E7C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28S944C5QK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.soka.testsmultipleappicon.MultipleAppIcon;
+				PRODUCT_NAME = MultipleAppIcon;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75C5512B264CFBFF0013E7C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 28S944C5QK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.soka.testsmultipleappicon.MultipleAppIcon;
+				PRODUCT_NAME = MultipleAppIcon;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		75C5512C264CFBFF0013E7C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 28S944C5QK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.soka.testsmultipleappicon.MultipleAppIcon;
+				PRODUCT_NAME = MultipleAppIcon;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75C5510A264CFBFB0013E7C1 /* Build configuration list for PBXProject "MultipleAppIcon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75C55125264CFBFF0013E7C1 /* Debug */,
+				75C55126264CFBFF0013E7C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75C55127264CFBFF0013E7C1 /* Build configuration list for PBXNativeTarget "MultipleAppIcon (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75C55128264CFBFF0013E7C1 /* Debug */,
+				75C55129264CFBFF0013E7C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75C5512A264CFBFF0013E7C1 /* Build configuration list for PBXNativeTarget "MultipleAppIcon (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75C5512B264CFBFF0013E7C1 /* Debug */,
+				75C5512C264CFBFF0013E7C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75C55107264CFBFB0013E7C1 /* Project object */;
+}
