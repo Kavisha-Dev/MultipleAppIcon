@@ -14,7 +14,7 @@ import SwiftUI
 struct ContentView: View {
     
     // Refer to details mentioned in AppIconView saying why this is commented.
-    // @EnvironmentObject var iconSettings: IconNames
+    //@EnvironmentObject var iconSettings: IconNames
     
     @StateObject private var iconSettings : IconNames = IconNames()
     
